@@ -32,9 +32,9 @@ CREATE TABLE TRATAMIENTO(
     ID_MEDICAMENTO                  NUMBER(3),
     FECHA_FIN                       DATE,
     FECHA_INICIO                    DATE,
-    CANT_DESAYUNO                   NUMBER(1),
-    CANT_COMIDA                     NUMBER(1),
-    CANT_CENA                       NUMBER(1),    
+    CANT_DESAYUNO                   NUMBER,
+    CANT_COMIDA                     NUMBER,
+    CANT_CENA                       NUMBER,    
     CONSTRAINT PK_ID_TRATAMIENTO PRIMARY KEY (ID_TRATAMIENTO)
 );
 
@@ -43,6 +43,7 @@ CREATE TABLE TOMAS(
     DNI_RESIDENTE                   VARCHAR2(9),    
     CONSTRAINT PK_ID_TRATAMIENTO_DNI_RESIDENTE PRIMARY KEY (ID_TRATAMIENTO, DNI_RESIDENTE)
 );
+
 
 --Antonio
 
