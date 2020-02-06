@@ -1291,9 +1291,6 @@ INSERT INTO COMIDAS
 VALUES (SEQ_COMIDAS.NEXTVAL, 'Ardoria');
 
 INSERT INTO COMIDAS
-VALUES (SEQ_COMIDAS.NEXTVAL, 'Macarrones con nata y queso');
-
-INSERT INTO COMIDAS
 VALUES (SEQ_COMIDAS.NEXTVAL, 'Bocata del Manolo');
 
 INSERT INTO COMIDAS
@@ -1337,6 +1334,45 @@ VALUES (SEQ_COMIDAS.NEXTVAL, 'Choco Flakes');
 
 INSERT INTO COMIDAS
 VALUES (SEQ_COMIDAS.NEXTVAL, 'Palmeras de chocolate');
+
+INSERT INTO COMIDAS
+VALUES (SEQ_COMIDAS.NEXTVAL, 'Leche sin lactosa');
+
+INSERT INTO COMIDAS
+VALUES (SEQ_COMIDAS.NEXTVAL, 'Pollo con almendras (Sin Lactosa)');
+
+INSERT INTO COMIDAS
+VALUES (SEQ_COMIDAS.NEXTVAL, 'Costillas a la miel (Sin Lactosa)');
+
+INSERT INTO COMIDAS
+VALUES (SEQ_COMIDAS.NEXTVAL, 'Cardos esparragados (Sin Lactosa)');
+
+INSERT INTO COMIDAS
+VALUES (SEQ_COMIDAS.NEXTVAL, 'Ensalada de verano (Sin Lactosa)');
+
+INSERT INTO COMIDAS
+VALUES (SEQ_COMIDAS.NEXTVAL, 'Merluza en papillote con verduras (Sin Gluten)');
+
+INSERT INTO COMIDAS
+VALUES (SEQ_COMIDAS.NEXTVAL, 'Ensalada de patatas y judias (Sin Gluten)');
+
+INSERT INTO COMIDAS
+VALUES (SEQ_COMIDAS.NEXTVAL, 'Marmitako de salmón (Sin Gluten)');
+
+INSERT INTO COMIDAS
+VALUES (SEQ_COMIDAS.NEXTVAL, 'Patatas gratinadas a la mayonesa de yogur (Sin Gluten)');
+
+INSERT INTO COMIDAS
+VALUES (SEQ_COMIDAS.NEXTVAL, 'Calamares del campo (Diabéticos)');
+
+INSERT INTO COMIDAS
+VALUES (SEQ_COMIDAS.NEXTVAL, 'Lasaña de verdura con mayonesa ligera sin azúcar (Diabéticos)');
+
+INSERT INTO COMIDAS
+VALUES (SEQ_COMIDAS.NEXTVAL, 'Ensalada de pollo y fresa con mayonesa ligera sin azúcar (Diabéticos)');
+
+INSERT INTO COMIDAS
+VALUES (SEQ_COMIDAS.NEXTVAL, 'Ensalada de Caballa en Aceite Vegetal Isabel y Vinagreta Ybarra (Diabéticos)');
 
 
 /*Antonio*/
@@ -1441,6 +1477,13 @@ insert into MENU (ID_MENU, NOMBRE, ID_DESAYUNO, ID_ALMUERZO, ID_CENA) values (SE
 insert into MENU (ID_MENU, NOMBRE, ID_DESAYUNO, ID_ALMUERZO, ID_CENA) values (SEQ_MENU.NEXTVAL, 'NORMAL', 56, 1, 30);
 insert into MENU (ID_MENU, NOMBRE, ID_DESAYUNO, ID_ALMUERZO, ID_CENA) values (SEQ_MENU.NEXTVAL, 'NORMAL', 55, 29, 25);
 insert into MENU (ID_MENU, NOMBRE, ID_DESAYUNO, ID_ALMUERZO, ID_CENA) values (SEQ_MENU.NEXTVAL, 'NORMAL', 63, 37, 14);
+insert into MENU (ID_MENU, NOMBRE, ID_DESAYUNO, ID_ALMUERZO, ID_CENA) values (SEQ_MENU.NEXTVAL, 'SIN LACTOSA', 68, 69, 70);
+insert into MENU (ID_MENU, NOMBRE, ID_DESAYUNO, ID_ALMUERZO, ID_CENA) values (SEQ_MENU.NEXTVAL, 'SIN LACTOSA', 68, 71, 72);
+insert into MENU (ID_MENU, NOMBRE, ID_DESAYUNO, ID_ALMUERZO, ID_CENA) values (SEQ_MENU.NEXTVAL, 'SIN GLUTEN', 68, 73, 74);
+insert into MENU (ID_MENU, NOMBRE, ID_DESAYUNO, ID_ALMUERZO, ID_CENA) values (SEQ_MENU.NEXTVAL, 'SIN GLUTEN', 68, 75, 76);
+insert into MENU (ID_MENU, NOMBRE, ID_DESAYUNO, ID_ALMUERZO, ID_CENA) values (SEQ_MENU.NEXTVAL, 'DIABÉTICO', 68, 77, 78);
+insert into MENU (ID_MENU, NOMBRE, ID_DESAYUNO, ID_ALMUERZO, ID_CENA) values (SEQ_MENU.NEXTVAL, 'DIABÉTICO', 68, 79, 80);
+
 
 
 
